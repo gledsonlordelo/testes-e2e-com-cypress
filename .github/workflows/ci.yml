@@ -49,21 +49,13 @@ jobs:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY}}
         with:
           command: npm run test:tablet
-  eslint:
-    runs-on: windows-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Install modules
-      run: npm install
-    - name: Run ESLint
-      run: npm run lint
   cypress-tests-desktop-win:
     needs: eslint
     runs-on: windows-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        
+
       - name: Run end-to-end tests on desktop viewport 🧪
         uses: cypress-io/github-action@v2
         env:
