@@ -22,4 +22,5 @@ module.exports = (on, config) => {
   on('task', {
     generateOTP: require('cypress-otp')
   })
+  require('cypress-grep/src/plugin')(config)
 }
