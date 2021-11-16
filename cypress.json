@@ -1,18 +1,16 @@
 {
-    "pageLoadTimeout": 60000,
-    "defaultCommandTimeout": 10000,
-    "experimentalSessionSupport": true,
-    "experimentalStudio": true,
-    "chromeWebSecurity": false,
-
-    "env": {
-      "viewportWidthBreakpoint": 768
-    },
-    
-    "baseUrl": "https://notes-serverless-app.com",
-
-    "retries": {
-        "runMode": 3,
-        "openMode": 2
-      }
+  "projectId": "tpbt2w",
+  "pageLoadTimeout": 60000,
+  "defaultCommandTimeout": 10000,
+  "experimentalSessionSupport": true,
+  "experimentalStudio": true,
+  "chromeWebSecurity": false,
+  "env": {
+    "viewportWidthBreakpoint": 768
+  },
+  "baseUrl": "https://notes-serverless-app.com",
+  "retries": {
+    "runMode": 3,
+    "openMode": 2
+  }
 }
