@@ -1,4 +1,4 @@
-/// <reference types="Cypress" />
+/// <reference path="../support/commands.d.ts" />
 
 it('Successfully logs in', () => {
   cy.intercept('GET', '**/notes').as('getNotes')

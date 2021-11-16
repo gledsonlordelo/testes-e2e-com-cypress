@@ -1,8 +1,8 @@
 {
   "name": "testes-e2e-com-cypress",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Sample project to demonstrate e2e tests written with Cypress running on GitHub Actions",
+
   "scripts": {
     "lint": "eslint cypress/**/*.js",
     "lint:fix": "eslint cypress/**/*.js --fix",
@@ -12,7 +12,7 @@
     "test:tablet": "cypress run --record --tag 'tablet' --config viewportWidth=767,viewportHeight=480 --spec cypress/integration/authenticatedScenarios.spec.js --env grepTags=@desktop-and-tablet"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gledson Almeida",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^8.2.0",
