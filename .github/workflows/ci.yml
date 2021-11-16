@@ -67,4 +67,3 @@ jobs:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY}}
         with:
           command: npm test
-          browser: firefox  
