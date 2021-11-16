@@ -14,7 +14,7 @@
   "author": "Gledson Almeida",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^8.2.0",
+    "cypress": "^8.7.0",
     "cypress-dark": "^1.8.3",
     "cypress-file-upload": "^5.0.8",
     "cypress-grep": "^2.10.2",
