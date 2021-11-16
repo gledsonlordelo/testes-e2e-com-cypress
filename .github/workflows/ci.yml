@@ -52,7 +52,6 @@ jobs:
   cypress-tests-desktop-win:
     needs: eslint
     runs-on: windows-latest
-    container: cypress/browsers:node12.18.3-chrome87-ff82
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -67,3 +66,4 @@ jobs:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY}}
         with:
           command: npm test
+          browser: chrome
